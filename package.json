@@ -2,11 +2,8 @@
   "name": "ts-exit-codes",
   "version": "1.0.0",
   "description": "A basic package of various exit code enums.",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "files": [
-    "/dist"
-  ],
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "dependencies": {
     "@testdeck/mocha": "^0.1.2",
     "chai": "^4.3.4",

@@ -1,0 +1,27 @@
+import { SysExitCodes } from "./sys-exit-codes";
+import { BashExitCodes } from "./bash-exit-codes";
+export declare const ExitCodes: {
+    Usage: SysExitCodes.Usage;
+    DataError: SysExitCodes.DataError;
+    NoInput: SysExitCodes.NoInput;
+    NoUser: SysExitCodes.NoUser;
+    NoHost: SysExitCodes.NoHost;
+    Unavailable: SysExitCodes.Unavailable;
+    Software: SysExitCodes.Software;
+    OsError: SysExitCodes.OsError;
+    OsFile: SysExitCodes.OsFile;
+    CantCreate: SysExitCodes.CantCreate;
+    IoError: SysExitCodes.IoError;
+    TempFail: SysExitCodes.TempFail;
+    Protocol: SysExitCodes.Protocol;
+    NoPerm: SysExitCodes.NoPerm;
+    Config: SysExitCodes.Config;
+    General: BashExitCodes.General;
+    ShellMisuse: BashExitCodes.ShellMisuse;
+    CannotExecute: BashExitCodes.CannotExecute;
+    CommandNotFound: BashExitCodes.CommandNotFound;
+    InvalidExitArg: BashExitCodes.InvalidExitArg;
+    UserTerminated: BashExitCodes.UserTerminated;
+    Ok: number;
+};
+export declare type ExitCodes = typeof ExitCodes;
