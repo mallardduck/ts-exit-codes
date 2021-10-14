@@ -13,11 +13,9 @@ logs
 results
 tmp
 
-# Build
-public/css/main.css
-
-# Coverage reports
+# Tests & Coverage reports
 coverage
+.nyc_output
 
 # API keys and secrets
 .env
