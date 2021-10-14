@@ -1,6 +1,6 @@
 {
     "name": "ts-exit-codes",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A basic package of various exit code enums.",
     "licenses": [
         {
@@ -22,7 +22,7 @@
         "ts-mockito": "^2.6.1",
         "ts-node": "^10.3.0"
     },
-    "scripts" : {
+    "scripts": {
         "test": "nyc ./node_modules/.bin/_mocha 'tests/**/*.test.ts'",
         "coverage": "nyc --reporter=html --reporter=text-summary ./node_modules/.bin/_mocha 'tests/**/*.test.ts'"
     }
