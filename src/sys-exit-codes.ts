@@ -1,0 +1,17 @@
+export enum SysExitCodes {
+    Usage = 64,
+    DataError,
+    NoInput,
+    NoUser,
+    NoHost,
+    Unavailable,
+    Software,
+    OsError,
+    OsFile,
+    CantCreate,
+    IoError,
+    TempFail,
+    Protocol,
+    NoPerm,
+    Config,
+}
